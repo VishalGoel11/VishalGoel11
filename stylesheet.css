@@ -1,0 +1,50 @@
+container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    height: 95%;
+    width: 75%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.code{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.code1{
+    color: aqua;
+}
+.code2{
+    color:chocolate;
+}
+#img1{
+    border-radius: 50%;
+}
+.About{
+    width: 100%;
+    border-radius: 10px;
+    height: 70px;
+    border-top: 9px;
+    border-bottom: 6px;
+    text-align: center;
+    color: blue;
+    background-color: rgb(192, 192, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+}
+.card{
+    margin: auto;
+    /* border-color: black; */
+}
+#alertbox{
+    text-align: center;
+}
+.warning{
+    color: white;
+}
+.whatsapp_float{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
