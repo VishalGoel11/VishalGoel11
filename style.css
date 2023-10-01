@@ -2,12 +2,27 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 /* Your custom styles go here */
-
+#header{
+    position: fixed;
+    width: 100vw;
+}
 body {
     font-family: 'Poppins', sans-serif;
 
 }
-
+section{
+    width: 100%;
+}
+#abtimage{
+    background-image: url("/vishu.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 h1,
 h2,
 h3,
