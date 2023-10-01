@@ -5,13 +5,33 @@
 #header{
     position: fixed;
     width: 100vw;
+    z-index: 9;
 }
 body {
     font-family: 'Poppins', sans-serif;
 
 }
+.beautifyImage{
+   background-color: aqua;
+   z-index: 1;
+   margin-top: -215px;
+   width: 210px;
+   height: 210px;
+   border-radius: 50%;
+   filter: blur(8px);
+   
+}
+.head1{
+    margin-top: -94px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.head1 h1{
+    color: rgba(0, 0, 0, 0.237);
+}
 section{
     width: 100%;
+    position: relative;
 }
 #abtimage{
     background-image: url("vishu.jpeg");
