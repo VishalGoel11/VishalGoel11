@@ -20,6 +20,9 @@ const ab = document.getElementById('ab');
     }
  })
 //  class="flex flex-wrap md:justify-between"  id="ab" style="text-align: center;"
+if(innerWidth<='400'){
+    document.getElementsByClassName("head1")[0].style.display="none";
+}
 if(innerWidth<='700'){
 
 pr.style.flexDirection="column";
