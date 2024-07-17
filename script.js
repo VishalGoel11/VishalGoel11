@@ -49,3 +49,45 @@ let wordflick = function () {
 $(document).ready(function () {
   wordflick();
 });
+
+gsap.from('.word', {
+  duration: 3, 
+  opacity:0,
+  scale:1.5,
+  delay:1
+});
+
+gsap.from('#btn_resume',{
+  x:'-80vw',
+  duration:1,
+  delay:'1',
+  ease: "bounce.out",
+})
+
+gsap.to('#nav_img',{
+  rotate: 360,
+  duration:1,
+  delay: 1,
+  boxShadow: "10px 10px 20px rgba(0, 0, 0, 0.5)"
+})
+
+gsap.from('.name',{
+  y:'-10vw',
+  duration:2,
+  delay:0.5,
+  ease: "bounce.out",
+})
+
+gsap.from('nav',{
+  y:'-10vw',
+  duration:2,
+  delay:0.5,
+  ease: "bounce.out",
+})
+
+gsap.from('.icons',{
+  y:'-50vh',
+  duration:2,
+  ease: 'bounce.out',
+  delay:0.5
+})

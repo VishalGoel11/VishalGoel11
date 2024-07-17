@@ -196,6 +196,7 @@ section {
   color: black;
   font: 800 normal;
   text-transform: uppercase;
+  /* visibility: hidden; */
   letter-spacing: 2px;
   font-size: 2.7rem;
   text-shadow: 4px 1px #222324, 1px 3px #222324, 2px 4px #222324;

@@ -5,6 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vishal Goel-Devfolio</title>
+  <meta name="keywords" content="Vishal Goel, B.Tech Software Developer, AKGEC, Modinagar, Govindpuri, Vishu Goel">
+  <meta name="description" content="Vishal Goel - B.Tech Software Developer and Freelancer. Explore my projects, skills, and professional journey in software development. Hire me for your next tech project.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Vishal Goel">
   <link rel="icon" href="images/vishuimg.png"/>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +26,7 @@
   <header>
     <div class="logo">
       <div class="image">
-        <img src="images/vishuimg.png" />
+        <img src="images/vishuimg.png" id="nav_img"/>
       </div>
       <div class="name">Vishal Goel</div>
     </div>
@@ -51,10 +55,10 @@
   </div>
   <section class="hero pattern" id="home">
     <div class="socialmedia">
-      <a href="https://www.linkedin.com/in/vishal-goel-70b516234/" target="_blank"><i
+      <a class="icons" href="https://www.linkedin.com/in/vishal-goel-70b516234/" target="_blank"><i
           class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/VishalGoel11" target="_blank"><i class="fa-brands fa-square-github"></i></i></a>
-      <a href="https://leetcode.com/2010183/" target="_blank"><img src="./images/leetcodeicon.png" style="background-color: white;"></a>
+      <a class="icons" href="https://github.com/VishalGoel11" target="_blank"><i class="fa-brands fa-square-github"></i></i></a>
+      <a class="icons" href="https://leetcode.com/2010183/" target="_blank"><img src="./images/leetcodeicon.png" style="background-color: white;"></a>
     </div>
     <div class="hero-content">
       <h1 class="word"></h1>
@@ -62,8 +66,8 @@
         websites and Web Applications that leads to the success of the
         <br>overall product.
       </p>
-      <a href="VishalGoel__Resume__.pdf">
-        <button>Resume</button>
+      <a href="Vishal__Goel__Resume__.pdf">
+        <button id="btn_resume">Resume</button>
       </a>
     </div>
   </section>
@@ -183,6 +187,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="script.js"></script>
 </body>
 
