@@ -69,7 +69,7 @@ header {
   background-color: white;
   padding: 15px;
   box-shadow: 0 6px 7px 0 rgb(108, 148, 234);
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 5;
 }

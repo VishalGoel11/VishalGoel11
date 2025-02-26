@@ -4,7 +4,7 @@ menuBtn.addEventListener("click", () => {
   document.querySelector(".mobile").classList.toggle("hidden");
 });
 
-let words = ["Hi I'm Vishal Goel", "A Web Developer"],
+let words = ["Hi I'm Vishal Goel", "Software Engineer"],
   part,
   i = 0,
   offset = 0,
